@@ -25,10 +25,6 @@ LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 OWNER_ID = int(getenv("OWNER_ID", "5311223486"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "spotify_x_music_bot")
-
-COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
-
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
